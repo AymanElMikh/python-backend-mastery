@@ -31,6 +31,16 @@
 
 | # | Category | Concept | Folder | Date |
 |---|----------|---------|--------|------|
+| 001 | python_core | `__new__` vs `__init__` | python_core/001_new_vs_init | 2026-03-13 |
+| 002 | python_core | The GIL — Global Interpreter Lock | python_core/002_gil_internals | 2026-03-13 |
+| 003 | python_core | Descriptors (`__get__`, `__set__`, `__delete__`) | python_core/003_descriptors | 2026-03-13 |
+| 004 | python_core | Metaclasses & `type` | python_core/004_metaclasses | 2026-03-13 |
+| 005 | python_core | MRO & C3 Linearization with `super()` | python_core/005_mro_super | 2026-03-13 |
+| 006 | python_core | `__slots__` & Memory Layout | python_core/006_slots | 2026-03-13 |
+| 007 | python_core | Context Managers & `contextlib` | python_core/007_context_managers | 2026-03-13 |
+| 008 | python_core | Generator Internals & `send()` / `throw()` | python_core/008_generators_internals | 2026-03-13 |
+| 009 | python_core | Decorator Internals & `functools.wraps` | python_core/009_decorator_internals | 2026-03-13 |
+| 010 | python_core | Python Memory Model & Garbage Collection | python_core/010_memory_model_gc | 2026-03-13 |
 
 ---
 
@@ -52,3 +62,4 @@ python python_core/001_new_vs_init/demo.py
 
 | Session | Date | Category | Concepts Added |
 |---------|------|----------|---------------|
+| 1 | 2026-03-13 | python_core | 001–010 |

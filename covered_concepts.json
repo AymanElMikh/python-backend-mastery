@@ -1,0 +1,86 @@
+{
+  "last_updated": "2026-03-13",
+  "total_covered": 10,
+  "concepts": [
+    {
+      "id": "001",
+      "category": "python_core",
+      "slug": "new_vs_init",
+      "title": "__new__ vs __init__",
+      "folder": "python_core/001_new_vs_init",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "002",
+      "category": "python_core",
+      "slug": "gil_internals",
+      "title": "The GIL — Global Interpreter Lock",
+      "folder": "python_core/002_gil_internals",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "003",
+      "category": "python_core",
+      "slug": "descriptors",
+      "title": "Descriptors (__get__, __set__, __delete__)",
+      "folder": "python_core/003_descriptors",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "004",
+      "category": "python_core",
+      "slug": "metaclasses",
+      "title": "Metaclasses & type",
+      "folder": "python_core/004_metaclasses",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "005",
+      "category": "python_core",
+      "slug": "mro_super",
+      "title": "MRO & C3 Linearization with super()",
+      "folder": "python_core/005_mro_super",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "006",
+      "category": "python_core",
+      "slug": "slots",
+      "title": "__slots__ & Memory Layout",
+      "folder": "python_core/006_slots",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "007",
+      "category": "python_core",
+      "slug": "context_managers",
+      "title": "Context Managers & contextlib",
+      "folder": "python_core/007_context_managers",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "008",
+      "category": "python_core",
+      "slug": "generators_internals",
+      "title": "Generator Internals & send() / throw()",
+      "folder": "python_core/008_generators_internals",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "009",
+      "category": "python_core",
+      "slug": "decorator_internals",
+      "title": "Decorator Internals & functools.wraps",
+      "folder": "python_core/009_decorator_internals",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "010",
+      "category": "python_core",
+      "slug": "memory_model_gc",
+      "title": "Python Memory Model & Garbage Collection",
+      "folder": "python_core/010_memory_model_gc",
+      "date_covered": "2026-03-13"
+    }
+  ]
+}
