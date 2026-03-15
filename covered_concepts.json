@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-13",
-  "total_covered": 10,
+  "total_covered": 30,
   "concepts": [
     {
       "id": "001",
@@ -80,6 +80,166 @@
       "slug": "memory_model_gc",
       "title": "Python Memory Model & Garbage Collection",
       "folder": "python_core/010_memory_model_gc",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "011",
+      "category": "python_core",
+      "slug": "call_callable",
+      "title": "__call__ & the Callable Protocol",
+      "folder": "python_core/011_call_callable",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "012",
+      "category": "python_core",
+      "slug": "getattr_getattribute",
+      "title": "__getattr__ vs __getattribute__",
+      "folder": "python_core/012_getattr_getattribute",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "013",
+      "category": "python_core",
+      "slug": "abc_abstract",
+      "title": "Abstract Base Classes (ABC) & Virtual Subclasses",
+      "folder": "python_core/013_abc_abstract",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "014",
+      "category": "python_core",
+      "slug": "dataclasses_internals",
+      "title": "dataclasses Internals — field(), __post_init__, ClassVar",
+      "folder": "python_core/014_dataclasses_internals",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "015",
+      "category": "python_core",
+      "slug": "import_system",
+      "title": "The Python Import System — importlib, sys.modules, Circular Imports",
+      "folder": "python_core/015_import_system",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "016",
+      "category": "python_core",
+      "slug": "hash_eq",
+      "title": "__hash__ and __eq__ — The Hashability Contract",
+      "folder": "python_core/016_hash_eq",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "017",
+      "category": "python_core",
+      "slug": "functools_deep",
+      "title": "functools Deep Dive — lru_cache, partial, cached_property, reduce",
+      "folder": "python_core/017_functools_deep",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "018",
+      "category": "python_core",
+      "slug": "exception_chaining",
+      "title": "Exception Chaining — __cause__, __context__, __suppress_context__",
+      "folder": "python_core/018_exception_chaining",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "019",
+      "category": "python_core",
+      "slug": "typing_protocol",
+      "title": "typing Module — Protocol, TypeVar, Literal, Type Narrowing",
+      "folder": "python_core/019_typing_protocol",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "020",
+      "category": "python_core",
+      "slug": "init_subclass",
+      "title": "__init_subclass__ & Class Creation Hooks",
+      "folder": "python_core/020_init_subclass",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "021",
+      "category": "fastapi",
+      "slug": "dependency_injection",
+      "title": "Dependency Injection — Depends(), yield deps, scoped DI",
+      "folder": "fastapi/021_dependency_injection",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "022",
+      "category": "fastapi",
+      "slug": "lifespan",
+      "title": "Lifespan Events — startup, shutdown, app.state",
+      "folder": "fastapi/022_lifespan",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "023",
+      "category": "fastapi",
+      "slug": "middleware",
+      "title": "Middleware — BaseHTTPMiddleware, pure ASGI, ordering",
+      "folder": "fastapi/023_middleware",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "024",
+      "category": "fastapi",
+      "slug": "background_tasks",
+      "title": "BackgroundTasks — async fire-and-forget, ordering, failure isolation",
+      "folder": "fastapi/024_background_tasks",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "025",
+      "category": "fastapi",
+      "slug": "pydantic_v2_validators",
+      "title": "Pydantic v2 Validators — field_validator, model_validator, computed_field",
+      "folder": "fastapi/025_pydantic_v2_validators",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "026",
+      "category": "fastapi",
+      "slug": "path_query_body",
+      "title": "Path, Query & Body Parameters — validation, Annotated, reusable params",
+      "folder": "fastapi/026_path_query_body",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "027",
+      "category": "fastapi",
+      "slug": "response_models",
+      "title": "Response Models & Status Codes — response_model, StreamingResponse, 204",
+      "folder": "fastapi/027_response_models",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "028",
+      "category": "fastapi",
+      "slug": "exception_handlers",
+      "title": "Exception Handlers — HTTPException, custom handlers, 422 override",
+      "folder": "fastapi/028_exception_handlers",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "029",
+      "category": "fastapi",
+      "slug": "openapi_customization",
+      "title": "OpenAPI Customization — tags, metadata, security schemes, custom schema",
+      "folder": "fastapi/029_openapi_customization",
+      "date_covered": "2026-03-13"
+    },
+    {
+      "id": "030",
+      "category": "fastapi",
+      "slug": "testing_fastapi",
+      "title": "Testing FastAPI — TestClient, dependency_overrides, AsyncClient",
+      "folder": "fastapi/030_testing_fastapi",
       "date_covered": "2026-03-13"
     }
   ]
