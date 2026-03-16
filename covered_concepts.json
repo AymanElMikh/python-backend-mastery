@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-13",
-  "total_covered": 30,
+  "last_updated": "2026-03-15",
+  "total_covered": 40,
   "concepts": [
     {
       "id": "001",
@@ -241,6 +241,86 @@
       "title": "Testing FastAPI — TestClient, dependency_overrides, AsyncClient",
       "folder": "fastapi/030_testing_fastapi",
       "date_covered": "2026-03-13"
+    },
+    {
+      "id": "031",
+      "category": "python_core",
+      "slug": "weakref",
+      "title": "Weak References — weakref Module",
+      "folder": "python_core/031_weakref",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "032",
+      "category": "python_core",
+      "slug": "class_getitem_generics",
+      "title": "__class_getitem__ & Generics",
+      "folder": "python_core/032_class_getitem_generics",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "033",
+      "category": "python_core",
+      "slug": "copy_deepcopy",
+      "title": "copy & deepcopy — Object Copying Protocol",
+      "folder": "python_core/033_copy_deepcopy",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "034",
+      "category": "python_core",
+      "slug": "operator_overloading",
+      "title": "Operator Overloading — Dunder Arithmetic & Rich Comparisons",
+      "folder": "python_core/034_operator_overloading",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "035",
+      "category": "python_core",
+      "slug": "string_interning",
+      "title": "String Interning — CPython's String Cache",
+      "folder": "python_core/035_string_interning",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "036",
+      "category": "python_core",
+      "slug": "closure_cells",
+      "title": "Closure Cells & nonlocal — LEGB Scope Deep Dive",
+      "folder": "python_core/036_closure_cells",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "037",
+      "category": "python_core",
+      "slug": "namedtuple_vs_dataclass",
+      "title": "NamedTuple vs dataclass — Choosing the Right Data Container",
+      "folder": "python_core/037_namedtuple_vs_dataclass",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "038",
+      "category": "python_core",
+      "slug": "async_generators",
+      "title": "Async Generators — async def + yield",
+      "folder": "python_core/038_async_generators",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "039",
+      "category": "python_core",
+      "slug": "bytecode_dis",
+      "title": "Bytecode & the dis Module — CPython Internals",
+      "folder": "python_core/039_bytecode_dis",
+      "date_covered": "2026-03-15"
+    },
+    {
+      "id": "040",
+      "category": "python_core",
+      "slug": "property_vs_descriptor",
+      "title": "property() vs Descriptors — Attribute Access Control",
+      "folder": "python_core/040_property_vs_descriptor",
+      "date_covered": "2026-03-15"
     }
   ]
 }

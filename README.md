@@ -20,7 +20,6 @@
 | `databases/` | SQLAlchemy, Alembic, query optimization, ORM patterns |
 | `security/` | Auth, JWT, OAuth2, hashing, rate limiting |
 | `performance/` | Profiling, caching, Redis, Celery, background tasks |
-| `devops_backend/` | Docker, docker-compose, GitHub Actions, env management |
 | `data_structures_algorithms/` | DSA applied to backend problems |
 | `api_design/` | REST best practices, versioning, pagination, error handling |
 | `testing_advanced/` | Integration tests, test containers, property-based testing |

@@ -29,7 +29,6 @@ Every concept = 1 folder, 1 README.md, 1 demo.py.
 | databases              | SQLAlchemy ORM, Alembic, query optimization, N+1, indexes|
 | security               | JWT, OAuth2, bcrypt, CORS, rate limiting, secrets        |
 | performance            | Caching, Redis, Celery, profiling, connection pooling    |
-| devops_backend         | Docker, docker-compose, GitHub Actions, env, secrets     |
 | data_structures_algorithms | DSA applied to real backend problems               |
 | api_design             | REST, versioning, pagination, error handling, OpenAPI    |
 | testing_advanced       | Integration tests, TestContainers, hypothesis, e2e       |
@@ -72,7 +71,7 @@ Examples:
 # [CONCEPT TITLE]
 
 ## 🎯 Interview Question
-[Exact question an interviewer would ask — be realistic and senior-level]
+[Exact question an interviewer would ask — be realistic and mid to senior-level]
 
 ## 💡 Short Answer (30 seconds)
 [2–3 sentences. What you say out loud when the interviewer asks. Crisp.]
@@ -87,7 +86,7 @@ real-world production use cases. No fluff, no basics.]
 ```
 
 ## ⚠️ Common Mistakes & Interview Traps
-[What junior/mid devs get wrong. What interviewers specifically test for.]
+[What junior devs get wrong. What interviewers specifically test for.]
 
 ## 🔗 Related Concepts
 [List other concept folders in this repo that connect to this one]
@@ -174,7 +173,7 @@ Append to the Session Log table:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Every concept must meet this bar:
-✅ Would a senior engineer learn something from this?
+✅ Would a mid or senior engineer learn something from this?
 ✅ Does the demo.py actually run and show the concept clearly?
 ✅ Does the README answer both "what" AND "why" AND "when not to"?
 ✅ Does it include at least one non-obvious trap or edge case?
